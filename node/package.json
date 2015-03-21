@@ -1,0 +1,14 @@
+{
+  "name": "js2coffee-demo",
+  "version": "1.0.0",
+  "description": "The node version of js2coffee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Butler <adam@lab.io>",
+  "license": "MIT",
+  "dependencies": {
+    "js2coffee": "^2.0.3"
+  }
+}
