@@ -9,6 +9,7 @@
   "author": "Adam Butler <adam@lab.io>",
   "license": "MIT",
   "dependencies": {
+    "commander": "^2.7.1",
     "js2coffee": "^2.0.3"
   }
 }
