@@ -1,0 +1,10 @@
+{
+  "name": "osxjs-nwjs-demo",
+  "main": "index.html",
+  "dependencies": {
+    "js2coffee": "^2.0.3"
+  },
+  "window": {
+    "toolbar": false
+  }
+}
