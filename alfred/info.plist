@@ -5,7 +5,30 @@
 	<key>bundleid</key>
 	<string></string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>23A8D041-A077-4398-8B96-905DE0D68B6F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B2F90DD7-0A1C-440B-B694-BBCAD9D995CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>D5A9CA8E-025A-4370-9980-CDDBE4E78866</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>23A8D041-A077-4398-8B96-905DE0D68B6F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
@@ -13,20 +36,20 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Demo</string>
+	<string>js2c</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>keyword</key>
-				<string>wow</string>
+				<string>js2c</string>
 				<key>text</key>
-				<string>Wow</string>
+				<string>JS2C</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -38,10 +61,33 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>title</key>
+				<string>Done!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>B2F90DD7-0A1C-440B-B694-BBCAD9D995CD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>node ./index.js</string>
+				<string>. ~/.zshrc &amp;&amp; node ./index.js</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -58,6 +104,11 @@
 	<key>uidata</key>
 	<dict>
 		<key>23A8D041-A077-4398-8B96-905DE0D68B6F</key>
+		<dict>
+			<key>ypos</key>
+			<real>160</real>
+		</dict>
+		<key>B2F90DD7-0A1C-440B-B694-BBCAD9D995CD</key>
 		<dict>
 			<key>ypos</key>
 			<real>160</real>
