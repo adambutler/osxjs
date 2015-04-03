@@ -10,6 +10,7 @@ app (JavaScript to CoffeeScript converter) built with -
 - Alfred Workflows
 
 [Check out the talk here](https://www.youtube.com/watch?v=og6K_3kEfQk)
+
 [Check out the slides here](https://slides.com/adambutler/building-os-x-apps-with-javascript)
 
 As a bonus there is also the code for building the app natively with Swift.
